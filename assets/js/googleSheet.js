@@ -1,18 +1,3 @@
-
-// const scriptURL = 'https://script.google.com/macros/s/AKfycbyXCt3tq-NreV0WX86MjM6UyreqqGtH3QhxkAi03VRkbHDsjR1X4kK66xofgDlpG9_p3Q/exec'
-
-// const form = document.forms['contact-form']
-
-// form.addEventListener('submit', e => {
-//  e.preventDefault()
-//  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-//  .then(response => alert("Thank you! your form is submitted successfully." ))
-//  .then(() => { window.location.reload(); })
-//  .catch(error => console.error('Error!', error.message))
-// })
-
-
-
 const scriptURL = 'https://script.google.com/macros/s/AKfycbzghC3UdO-QTNTnU21QakWNdVwLLr6GY80qnfdmvFcdCUzutfpjKFmUejc5Zn0ChtGeJQ/exec';
 const form = document.forms['contact-form'];
 const submitButton = document.querySelector('input[type="submit"]');
